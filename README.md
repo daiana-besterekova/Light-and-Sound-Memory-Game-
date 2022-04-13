@@ -6,7 +6,7 @@ Submitted by: **Daiana Besterekova**
 
 Time spent: **25** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: (insert your link here, should start with https://glitch.com/edit/#!/storm-fork-lawyer)
 
 ## Required Functionality
 
