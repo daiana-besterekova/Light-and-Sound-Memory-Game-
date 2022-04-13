@@ -1,0 +1,339 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  background-color: seashell;
+  color: black;
+  margin: 2em;
+  font-family: verdana;
+}
+
+h1 {
+  font-family: verdana;
+  background-image: linear-gradient(
+    to left,
+    blue,
+    violet,
+    blue,
+    green,
+    yellow,
+    red
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.5px black; /* width and color */
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+#gameButtonArea > button {
+  width: 130px;
+  height: 130px;
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: limegreen;
+  border-radius: 50%;
+  top: 5%;
+  left: 60%;
+  position: absolute;
+}
+
+#button1:active,
+#button1.lit {
+  background: url("https://cdn.glitch.global/db462597-c149-4eba-9293-cad1b539c3bd/Money%20Face%20Emoji.png?v=1649667418425");
+  background-size: cover;
+}
+
+#button2 {
+  background: skyblue;
+  border-radius: 50%;
+  top: 28%;
+  left: 49%;
+  position: absolute;
+}
+
+#button2:active,
+#button2.lit {
+  background: url("https://cdn.glitch.global/db462597-c149-4eba-9293-cad1b539c3bd/Tears%20of%20Joy%20Emoji.png?v=1649667416061");
+  background-size: cover;
+}
+
+#button3 {
+  background: lightcoral;
+  border-radius: 50%;
+  top: 28%;
+  left: 60%;
+  position: absolute;
+}
+
+#button3:active,
+#button3.lit {
+  background: url("https://cdn.glitch.global/db462597-c149-4eba-9293-cad1b539c3bd/Heart%20Eyes%20Emoji.png?v=1649667431245");
+  background-size: cover;
+}
+
+#button4 {
+  background: gold;
+  border-radius: 50%;
+  top: 28%;
+  left: 71%;
+  position: absolute;
+}
+
+#button4:active,
+#button4.lit {
+  background: url("https://cdn.glitch.global/db462597-c149-4eba-9293-cad1b539c3bd/Slightly%20Smiling%20Face%20Emoji.png?v=1649667413086");
+  background-size: cover;
+}
+
+#button5 {
+  background: plum;
+  border-radius: 50%;
+  top: 51%;
+  left: 43.5%;
+  position: absolute;
+  visibility: hidden;
+}
+
+#button5:active,
+#button5.lit {
+  background: url("https://cdn.glitch.global/db462597-c149-4eba-9293-cad1b539c3bd/Angry%20Devil%20Emoji%20%5BDownload%20All%20Apple%20Emojis%5D.png?v=1649670180387");
+  background-size: cover;
+}
+
+#button6 {
+  background: white;
+  border-radius: 50%;
+  top: 51%;
+  left: 54.5%;
+  position: absolute;
+  visibility: hidden;
+}
+
+#button6:active,
+#button6.lit {
+  background: url("https://cdn.glitch.global/db462597-c149-4eba-9293-cad1b539c3bd/Ghost%20Emoji.png?v=1649670235046");
+  background-size: cover;
+}
+
+#button7 {
+  background: gray;
+  border-radius: 50%;
+  top: 51%;
+  left: 65.5%;
+  position: absolute;
+  visibility: hidden;
+}
+
+#button7:active,
+#button7.lit {
+  background: url("https://cdn.glitch.global/db462597-c149-4eba-9293-cad1b539c3bd/Sunglasses%20Emoji.png?v=1649667438125");
+  background-size: cover;
+}
+
+#button8 {
+  background: #ff6347;
+  border-radius: 50%;
+  top: 51%;
+  left: 76.5%;
+  position: absolute;
+  visibility: hidden;
+}
+
+#button8:active,
+#button8.lit {
+  background: url("https://cdn.glitch.global/db462597-c149-4eba-9293-cad1b539c3bd/Very%20Angry%20Emoji.png?v=1649670621142");
+  background-size: cover;
+}
+
+#button9 {
+  background: #7fffd4;
+  border-radius: 50%;
+  top: 74%;
+  left: 38%;
+  position: absolute;
+  visibility: hidden;
+}
+
+#button9:active,
+#button9.lit {
+  background: url("https://cdn.glitch.global/db462597-c149-4eba-9293-cad1b539c3bd/broccoli_1f966.png?v=1649702849713");
+  background-size: cover;
+}
+
+#button10 {
+  background: #ba55d3;
+  border-radius: 50%;
+  top: 74%;
+  left: 49%;
+  position: absolute;
+  visibility: hidden;
+}
+
+#button10:active,
+#button10.lit {
+  background: url("https://cdn.glitch.global/db462597-c149-4eba-9293-cad1b539c3bd/heart-decoration_1f49f.png?v=1649702851984");
+  background-size: cover;
+}
+#button11 {
+  background: #191970;
+  border-radius: 50%;
+  top: 74%;
+  left: 60%;
+  position: absolute;
+  visibility: hidden;
+}
+
+#button11:active,
+#button11.lit {
+  background: url("https://cdn.glitch.global/db462597-c149-4eba-9293-cad1b539c3bd/man-gesturing-no-light-skin-tone_1f645-1f3fb-200d-2642-fe0f.png?v=1649702855630");
+  background-size: cover;
+}
+#button12 {
+  background: #d2b48c;
+  border-radius: 50%;
+  top: 74%;
+  left: 71%;
+  position: absolute;
+  visibility: hidden;
+}
+
+#button12:active,
+#button12.lit {
+  background: url("https://cdn.glitch.global/db462597-c149-4eba-9293-cad1b539c3bd/Poop%20Emoji.png?v=1649702860022");
+  background-size: cover;
+}
+#button13 {
+  background: #ff8c00;
+  border-radius: 50%;
+  top: 74%;
+  left: 82%;
+  position: absolute;
+  visibility: hidden;
+}
+
+#button13:active,
+#button13.lit {
+  background: url("https://cdn.glitch.global/db462597-c149-4eba-9293-cad1b539c3bd/The%20Sun%20Face%20Emoji.png?v=1649702863451");
+  background-size: cover;
+}
+
+#selectid {
+  width: 160px;
+  height: 34px;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 16px;
+
+}
+
+#selecttrials {
+  width: 160px;
+  height: 34px;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 16px;
+
+}
+
+#strike {
+  width: 160px;
+  height: 34px;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  font-family: Verdana;
+  border-image: linear-gradient(
+    to bottom right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  border-image-slice: 1;
+}
+
+#para {
+  width: 160px;
+  height: 34px;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-image: linear-gradient(
+    to bottom right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  border-image-slice: 1;
+  border-color: black;
+  font-family: Verdana;
+}
+
+#trials {
+  width: 160px;
+  height: 34px;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-image: linear-gradient(
+    to bottom right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  border-image-slice: 1;
+  border-color: black;
+  font-family: Verdana;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
