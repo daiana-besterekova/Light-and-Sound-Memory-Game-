@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/2292/2292573.png"
+    />
+
+    <title>Play with me!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>Light and Sound Game</h1>
+    <p>Welcome to the Game! Repeat the pattern back to win the game</p>
+    <p>You can make only 2 mistakes before losing the game.</p>
+    <p id="para">Countdown: 25</p>
+    <p id="strike">Strikes: 0</p>
+    <p id="trials">Trials left:</p>
+    <p>Pick the difficulty of the game and let's goooo</p>
+    
+    <!-- set the difficulty -->
+    <select id="selectid">
+      <option value="4">Beginner</option>
+      <option value="8">Intermediate</option>
+      <option value="13">Advanced</option>
+    </select>
+    <p id="trialsnumber">Pick the number of the trials:</p>
+    <!-- select the number of trials -->
+    <select id="selecttrials">
+      <option value="5">Low (5)</option>
+      <option value="10">Standard (10)</option>
+      <option value="15">Hardcore (15)</option>
+    </select>
+    <button id="startBtn" onclick="startGame(), difficulty(), trialsnumber()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame(), resetTimer()">
+      Stop
+    </button>
+
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onmousedown="startTone(1)"
+        onmouseup="stopTone()"
+        onclick="guess(1)"
+      ></button>
+      <button
+        id="button2"
+        onmousedown="startTone(2)"
+        onmouseup="stopTone()"
+        onclick="guess(2)"
+      ></button>
+      <button
+        id="button3"
+        onmousedown="startTone(3)"
+        onmouseup="stopTone()"
+        onclick="guess(3)"
+      ></button>
+      <button
+        id="button4"
+        onmousedown="startTone(4)"
+        onmouseup="stopTone()"
+        onclick="guess(4)"
+      ></button>
+      <button
+        id="button5"
+        onmousedown="startTone(5)"
+        onmouseup="stopTone()"
+        onclick="guess(5)"
+      ></button>
+      <button
+        id="button6"
+        onmousedown="startTone(6)"
+        onmouseup="stopTone()"
+        onclick="guess(6)"
+      ></button>
+      <button
+        id="button7"
+        onmousedown="startTone(7)"
+        onmouseup="stopTone()"
+        onclick="guess(7)"
+      ></button>
+      <button
+        id="button8"
+        onmousedown="startTone(8)"
+        onmouseup="stopTone()"
+        onclick="guess(8)"
+      ></button>
+      <button
+        id="button9"
+        onmousedown="startTone(9)"
+        onmouseup="stopTone()"
+        onclick="guess(9)"
+      ></button>
+      <button
+        id="button10"
+        onmousedown="startTone(10)"
+        onmouseup="stopTone()"
+        onclick="guess(10)"
+      ></button>
+      <button
+        id="button11"
+        onmousedown="startTone(11)"
+        onmouseup="stopTone()"
+        onclick="guess(11)"
+      ></button>
+      <button
+        id="button12"
+        onmousedown="startTone(12)"
+        onmouseup="stopTone()"
+        onclick="guess(12)"
+      ></button>
+      <button
+        id="button13"
+        onmousedown="startTone(13)"
+        onmouseup="stopTone()"
+        onclick="guess(13)"
+      ></button>
+    </div>
+  </body>
+</html>
