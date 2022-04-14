@@ -34,7 +34,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [X] All the buttons are disabled when the sequence is playing 
+- [X] All buttons are disabled when the sequence is playing 
 - [X] If player wins, there is confetti for him 
 - [X] Player has track of the countdown and the number of mistakes/strikes 
 - [X] Player can choose the difficulty (the number of buttons) of the game - 4 (Beginner)/8 (Intermediate)/13 (Advanced) buttons per game
