@@ -115,11 +115,11 @@ function guess(btn) {
 
     mistakes += 1;
     console.log(mistakes);
-    if (mistakes > 0 && mistakes < 4) {
+    if (mistakes > 0 && mistakes < 3) {
       mistakeGame();
       document.getElementById("strike").innerHTML = "Strikes: " + mistakes;
     }
-    if (mistakes >= 4) {
+    if (mistakes >= 3) {
       loseGame();
     }
   }
