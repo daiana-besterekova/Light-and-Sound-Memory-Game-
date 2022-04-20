@@ -46,17 +46,26 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-**TEST 1: Losing game if after 2 strikes**
+**TEST 1: Winning game and confetti**
+
+**Conditions: Beginner level (4 buttons) and Low (5) trials**
+
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/85840329/164339975-90bbc979-2c76-461f-a8ab-56df1f772f9f.gif)
+
+
+**TEST 2: Losing game if after 2 strikes**
 
 **Conditions: Intermediate level (8 buttons) and Standard (10) trials**
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/85840329/164333775-705f7a8a-48e5-4659-a048-3d13209b2e2c.gif)
-)
 
-**TEST 2: Losing game when the time is over**
+
+**TEST 3: Losing game when the time is over**
 
 **Conditions: Advanced level (13 buttons) and Standard (15) trials**
+
+**Addition: Checking if pressing random buttons while the clue is playing would act as a guess**
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/85840329/164334397-ac3b3bb5-7ef9-425d-9cc9-53055ca466b8.gif)
-)
+
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 [YOUR ANSWER HERE]
