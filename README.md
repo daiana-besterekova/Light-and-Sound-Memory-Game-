@@ -45,9 +45,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-[ezgif com-gif-maker](https://user-images.githubusercontent.com/85840329/164324296-a1f2954a-73fc-4a36-954a-09d4097942a5.gif)]
-1-link-here)
-![](gif2-link-here)
+![]([ezgif com-gif-maker](https://user-images.githubusercontent.com/85840329/164324483-d746a0a2-bdf5-4cc6-802b-eec223743292.gif)
+)
 ![](gif3-link-here)
 ![](gif4-link-here)
 
