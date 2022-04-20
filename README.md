@@ -46,13 +46,15 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-TEST #1: Losing game if after 2 strikes
-Conditions: Intermediate level (8 buttons) and Standard (10) trials
+**TEST #1: Losing game if after 2 strikes**
+
+**Conditions: Intermediate level (8 buttons) and Standard (10) trials**
 ![](gif4-link-here![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/85840329/164333775-705f7a8a-48e5-4659-a048-3d13209b2e2c.gif)
 )
 
-TEST #1: Losing game when the time is over
-Conditions: Advanced level (13 buttons) and Standard (15) trials
+**TEST #1: Losing game when the time is over**
+
+**Conditions: Advanced level (13 buttons) and Standard (15) trials**
 ![](gif4-link-here!![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/85840329/164334397-ac3b3bb5-7ef9-425d-9cc9-53055ca466b8.gif)
 )
 ## Reflection Questions
