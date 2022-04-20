@@ -40,6 +40,7 @@ The following **additional** features are implemented:
 - [X] Dropdown menu with multiple options described below
 - [X] Player can choose the difficulty (the number of buttons) of the game - 4 (Beginner)/8 (Intermediate)/13 (Advanced) buttons per game
 - [X] Player can choose the number of trials to play - 5 (Low)/ 10 (Standard)/ 15 (Advanced)
+- [X] Changed the page title and icon
 
 ## Video Walkthrough (GIF)
 
