@@ -47,7 +47,8 @@ The following **additional** features are implemented:
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![](gif3-link-here)![ezgif com-gif-maker](https://user-images.githubusercontent.com/85840329/164324556-db75ebb5-2b4c-402c-95f9-a54752a2ddb9.gif)
 
-![](gif4-link-here)
+![](gif4-link-here![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/85840329/164333775-705f7a8a-48e5-4659-a048-3d13209b2e2c.gif)
+)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
