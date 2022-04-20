@@ -68,7 +68,14 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+- https://www.npmjs.com/package/canvas-confetti
+- https://www.sitepoint.com/community/t/disable-all-elements-within-div/4209/3
+- https://www.w3schools.com/cssref/css_colors.asp
+- https://www.w3schools.com/js/default.asp
+- http://www.java2s.com/ref/javascript/javascript-dom-html-audio-duration-property-get.html
+- https://codepen.io/unnegative/pen/dVwYBq
+- https://www.plus2net.com/javascript_tutorial/timer-reset.php#:~:text=Resetting%20the%20timer%20funcitons%20in%20JavaScript&text=setTimeout%20function%20sets%20the%20timer,clearTimeout%20function%20with%20timer%20id.
+- https://www.programiz.com/javascript/setInterval
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 [YOUR ANSWER HERE]
