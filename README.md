@@ -99,7 +99,7 @@ My goal for this project was to make it interactive and user-friendly. For examp
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.loom.com/share/e967797c6af24f3e83860ad8faf28bcb?sharedAppSource=personal_library)
 
 
 ## License
