@@ -53,7 +53,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/85840329/164339975-90bbc979-2c76-461f-a8ab-56df1f772f9f.gif)
 
 
-**TEST 2: Losing game if after 2 strikes**
+**TEST 2: Losing game after 2 strikes**
 
 **Conditions: Intermediate level (8 buttons) and Standard (10) trials**
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/85840329/164333775-705f7a8a-48e5-4659-a048-3d13209b2e2c.gif)
